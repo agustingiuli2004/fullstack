@@ -1,0 +1,7 @@
+@font-face {
+    font-family:fuente1;
+    src: url(../fuentes/Tropical\ County.ttf);
+    font-weight: 100 900;
+}
+h1{font-family: fuente1; font-weight: 800;color: red; }
+p{font-family: fuente1; font-weight: 300}

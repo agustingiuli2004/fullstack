@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="css/css.css">
+<h1>Completa el formulario</h1>
+<form action="codigo.php" method="post">
+    <label for="nombre">Nombre y Apellido:</label>
+    <input id="nombre" type="text" required placeholder="nombre y Apellido">
+</form>
+
+<form action="codigo.php" method="post">   
+Email <input type=”email” required
+    placeholder=”info@dominio.com” >
+    
+Nombre de usuario<input type=”text” required maxlength="10">
+Contraseña<input type="password" pattern="^(?=.*\d)(?=.*[az])(?=.*[AZ])(?!.*\s).*$
+">
+Edad <input type="number" required
+    min=”10” max=”80” > 
+    <input type="submit">     <br>Sexo   <input type="radio" name="Sexo" value="Hombre">Hombre   <input type="radio" name="Sexo" value="Mujer">Mujer
+    
+</form>
+<form action="codigo.php" method="post"> 
+    <p>Preferencias</p><label><input type="checkbox" Preferencias="Proteina">Proteina
+    </label><label><input type="checkbox" Preferencias="Carbohidratos">Carbohidratos
+    </label><label><input type="checkbox" Preferencias="Grasas">Grasas
+    </label>
+</p>
+<select name="paises" id="">
+    <option value="">Elegir Pais</option>
+    <option value="Argentina">Argentina</option>
+    <option value="Paraguay">Paraguay</option>
+    <option value="Chile">Chile</option>
+    <option value="Brasil">Brasil</option>
+</select>
+</form>
+<form action="codigo.php" method="post">
+    <input type="file" multiple>
+</form>
+<form action="codigo.php" method="post">
+    <textarea name="" id="" cols="20" rows="5"></textarea>
+</form>
+<form action="codigo.php" method="post">
+    <label>Acepto termino y condiciones</label> <input type="checkbox"> </form>
+    <form action="codigo.php">
+        <input type="button" value="envio">
+       
+    </form>
+    
+
+
